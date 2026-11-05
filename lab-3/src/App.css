@@ -182,3 +182,50 @@
     border-right-color: var(--border);
   }
 }
+
+.TodoApp {
+  width: 400px;
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.FormComponent {
+  width: 90%;
+  border: 1px solid white;
+  padding: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FormComponent input {
+  margin: 0 30px;
+}
+
+.TodosContainer {
+  width: 100%;
+}
+
+.TodoCard {
+  margin: 0 auto;
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TodoCard:nth-child(odd) {
+  background-color: #1e2028;
+}
+
+
+.InsideForm {
+  width: 100%;
+  display: flex;
+  border: 1px solid white;
+  justify-content: space-between;
+}
